@@ -32,8 +32,8 @@ import (
 
 	"github.com/schollz/progressbar/v2"
 
-	"github.com/Xuanwo/storage/coreutils"
-	ps "github.com/Xuanwo/storage/types/pairs"
+	"github.com/webdataworks/go-storage/coreutils"
+	ps "github.com/webdataworks/go-storage/types/pairs"
 )
 
 
@@ -81,7 +81,7 @@ Their benchmarks don't have many differences:
 // Fist run
 goos: linux
 goarch: amd64
-pkg: github.com/Xuanwo/storage/docs/design/10
+pkg: github.com/webdataworks/go-storage/docs/design/10
 BenchmarkPlainReader-8           	  269910	      4149 ns/op	 987.17 MB/s
 BenchmarkIntCallbackReader-8     	  292818	      4188 ns/op	 977.98 MB/s
 BenchmarkBytesCallbackReader-8   	  265878	      4176 ns/op	 980.90 MB/s
@@ -90,7 +90,7 @@ PASS
 // Second run
 goos: linux
 goarch: amd64
-pkg: github.com/Xuanwo/storage/docs/design/10
+pkg: github.com/webdataworks/go-storage/docs/design/10
 BenchmarkPlainReader-8           	  244312	      4456 ns/op	 919.22 MB/s
 BenchmarkIntCallbackReader-8     	  262990	      4202 ns/op	 974.84 MB/s
 BenchmarkBytesCallbackReader-8   	  240216	      4290 ns/op	 954.84 MB/s
