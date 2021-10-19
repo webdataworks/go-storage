@@ -1,6 +1,6 @@
 package tests
 
-import typ "go.beyondstorage.io/v5/types"
+import typ "github.com/webdataworks/go-storage/types"
 
 func (s *Service) formatError(op string, err error, args ...string) error {
 	panic("not implemented")

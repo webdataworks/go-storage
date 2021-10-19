@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"go.beyondstorage.io/v5/pkg/httpclient"
-	. "go.beyondstorage.io/v5/types"
+	"github.com/webdataworks/go-storage/pkg/httpclient"
+	. "github.com/webdataworks/go-storage/types"
 )
 
 // WithContentDisposition will apply content_disposition value to Options.

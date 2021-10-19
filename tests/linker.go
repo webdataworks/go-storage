@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.beyondstorage.io/v5/pkg/randbytes"
-	"go.beyondstorage.io/v5/types"
+	"github.com/webdataworks/go-storage/pkg/randbytes"
+	"github.com/webdataworks/go-storage/types"
 )
 
 func TestLinker(t *testing.T, store types.Storager) {

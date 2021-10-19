@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go.beyondstorage.io/v5/types"
+	"github.com/webdataworks/go-storage/types"
 )
 
 func BenchmarkStorage_Stat(b *testing.B) {

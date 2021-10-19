@@ -6,8 +6,8 @@ import (
 	"github.com/google/uuid"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.beyondstorage.io/v5/pairs"
-	"go.beyondstorage.io/v5/types"
+	"github.com/webdataworks/go-storage/pairs"
+	"github.com/webdataworks/go-storage/types"
 )
 
 func TestDirer(t *testing.T, store types.Storager) {

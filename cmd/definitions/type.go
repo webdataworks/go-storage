@@ -12,7 +12,7 @@ import (
 	"github.com/pelletier/go-toml"
 	log "github.com/sirupsen/logrus"
 
-	"go.beyondstorage.io/v5/cmd/definitions/bindata"
+	"github.com/webdataworks/go-storage/cmd/definitions/bindata"
 )
 
 // Data is the biggest container for all definitions.

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go.beyondstorage.io/v5/pairs"
-	"go.beyondstorage.io/v5/services"
-	. "go.beyondstorage.io/v5/types"
+	"github.com/webdataworks/go-storage/pairs"
+	"github.com/webdataworks/go-storage/services"
+	. "github.com/webdataworks/go-storage/types"
 )
 
 func TestFromString(t *testing.T) {

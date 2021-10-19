@@ -3,7 +3,7 @@ package services
 import (
 	"fmt"
 
-	"go.beyondstorage.io/v5/types"
+	"github.com/webdataworks/go-storage/types"
 )
 
 type InternalError interface {
